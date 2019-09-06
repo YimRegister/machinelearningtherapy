@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<title>Machine Learning Therapy</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button"><img src="close.png"></img></a>
+  <a href="index.html#home" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
+  <a href="index.html#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+  <a href="index.html#posts" onclick="w3_close()" class="w3-bar-item w3-button">Posts</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">Contact</a>
+
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-center w3-padding-16" style="font-family: 'Liu Jian Mao Cao', cursive; font-size:300%;">Machine Learning Therapy
+    <h2 style="color:#d6454e"><i>exploring ourselves through ML algorithms</i></h2></div>
+  </div>
+</div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:200px" id="home">
+
+
+  <!-- The post Section -->
+  <div id="thepost" class="w3-container w3-padding-32 w3-center">
+    <img src="flowers.jpg" alt=""></img>
+    <hr>
+    <h3 style="font-family: 'Liu Jian Mao Cao', cursive; font-size:300%;">Yesterday's Posterior is Today's Prior</h3><br>
+
+    <div>
+      <p style="font-size:20px;">post here</p>
+      
+
+    </div>
+  </div>
+  <hr>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+
+
+
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-half">
+      <h3>DISCLAIMER</h3>
+      <p>I have committed to using this digital space as a means of healing and expression for myself. I'd be thrilled if people shared this work, but this is a disclaimer that there really isn't much filter on what I've written here.</p>
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+
+
+
+    <div style="float:right;"class="w3-third" id="contact">
+      <h3>CONTACT</h3>
+      <h4>Yim Register</h4>
+      <a style="color:#d6454e" href="http://students.washington.edu/yreg/">Website</a>
+      <p style="font-family: 'Liu Jian Mao Cao', cursive;padding-top:0;font-size:200%;"> radical optimist</p>
+    </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
